@@ -242,7 +242,6 @@ export var getRenderData = function getRenderData(mapping, edges, autoLayout, la
   var _setNodePosition = setNodePosition(renderNodes, renderEdges, autoLayout, layoutOptions),
     _nodes = _setNodePosition._nodes,
     _edges = _setNodePosition._edges;
-  console.log(_edges);
   return {
     nodes: _nodes,
     edges: sortEdges(_edges)
