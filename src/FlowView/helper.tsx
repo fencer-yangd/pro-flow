@@ -275,7 +275,6 @@ export const getRenderData = (
 
   const { _nodes, _edges } = setNodePosition(renderNodes, renderEdges, autoLayout, layoutOptions);
 
-  console.log(_edges);
 
   return {
     nodes: _nodes,
